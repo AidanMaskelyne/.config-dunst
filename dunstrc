@@ -11,12 +11,12 @@
 	text_icon_padding = 0
 	frame_width = 2
 
-	frame_color = "#0078d4"
+	frame_color = "#AAAAAA"
 	separator_color = frame
 
 	sort = yes
 	idle_threshold = 120
-	font = Jetbrains Mono 10
+	font = BerkeleyMono Nerd Font 10
 	line_height = 0
 	markup = full
 	alignment = left
@@ -39,18 +39,16 @@
 	title = Dunst
 	class = Dunst
 
-	corner_radius = 10
 	timeout = 5
 
 [urgency_low]
     background = "#000000"
-    foreground = "#ffffff"
+    foreground = "#FFFFFF"
 
 [urgency_normal]
     background = "#000000"
-    foreground = "#ffffff"
+    foreground = "#FFFFFF"
 
 [urgency_critical]
-    frame_color = "#cc0403"
+    frame_color = "#AA0000"
     background = "#000000"
-    foreground = "#ffffff"
